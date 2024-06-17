@@ -125,7 +125,7 @@
 
 Here's a basic visual representation of the architecture:
 
-\`\`\`plaintext
+```plaintext
     +-------------+      +-------------------+      +------------+
     | Mobile App  | <--> | API Gateway       | <--> | Microservices |
     |             |      |                   |      | (Auth, Order,  |
@@ -142,6 +142,6 @@ Here's a basic visual representation of the architecture:
     +-------------------+      | (Payment,  |
                                 | Maps, FCM) |
                                 +-----------+
-\`\`\`
+```
 
 By following these guidelines and principles, you can design a scalable and maintainable architecture for a mobile app like Talabat.
